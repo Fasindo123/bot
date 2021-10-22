@@ -20,4 +20,4 @@ client.aliases = new Discord.Collection();
 client.snipes = new Map()
 
 loadCommands(client);
-client.login(config.token);
+client.login(process.env.token);
